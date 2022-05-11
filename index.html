@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVIÇOS</title>
+        
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <script>
+        console.log('Olá Mundo!')
+        console.log('MSG gerada no HEAD!')
+     </script>
+
+    <style> 
+        body{
+           font-family: 'Courier New';
+        }
+    </style>
+    </head>
+
+    <body style="font-family:'Gill Sans MT';">
+    <nav>  
+        <div>
+            <button class="font-google">
+                <span>CLICK</span>
+            </button>
+        </div>
+    
+        <div>
+            <ul>
+                <li><a href="#sobre"></a></li> 
+            </ul>
+        </div>
+            <ul>
+                <li><a href="#sobre"class="font-google">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#imagens">Imagens</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+        </nav>
+    
+        <header id="topo">
+        <h1>Equipe de Ponta</h1>
+        <p>
+            Somos uma equipe da área de Tecnologia, onde podemos atuar em diversas frentes.
+                Atuamos nos seguimentos de Desenvolvimento WEB, Minicursos remotos de linguagens que estão em alta no mercado. WorkShops com os mais distintos especialistas da área.
+                Segurança da Informação também é uma especialidade que dominamos. 
+        </p>
+        <a href="#servicos">Ver mais...</a>
+    </header>
+<section id="sobre">
+    <h2>Sobre</h2>
+        <p>
+            A empresa EQUIPE DE PONTA foi criada em 2021 no auge da pandemia, com o intuito de ajudar o próximo, conseguiu construir uma história de sucesso ao longo de um ano de vida.
+                    Não falamos por nós, deixamos nosso trabalho e nossos clientes falarem!
+        </p>
+        <a href="#contato">Contrate Agora</a> 
+</section>
+
+<section id="Imagens">
+    <h2 class="font-google">Imagens</h2>
+    <img src="./img/backbone.jpg" alt="backbone" width="100%">
+    <img src="./img/cidade.jpg" alt="cidade" width="100%">
+    <img src="./img/comunicao.jpg" alt="entrelaçado de fios" width="100%">
+    <img src="./img/icones.png" alt="icones de redes sociais" width="100%">
+    <img src="./img/internet.jpg" alt="grande rede interativa" width="100%">
+    <img src="./img/rede.jpg" alt="rede virtual de informações" width="100%">
+</section>
+
+<section id="servicos">
+    <h2>Serviços</h2>
+    <div>Serviços</div>
+    <div> 
+    <p>Nossos serviços:
+    </p>
+
+    </div>
+    <div>
+        <img src="./img/desenvolvimento.jpg" alt="tela de computador" width="100%">
+        <p>Desenvolvimento WEB</p>
+        </div>
+        <div>
+        <img src="./img/seguranca-info.png" alt ="segurança da informação"  width="100%">
+        <p>Segurança da Informação</p>
+        </div>
+        <div>
+        <img src="./img/cursos.png" alt="cursos disponíveis" width="100%">
+        <p>Mini cursos remotos de linguaguem</p>
+        </div>
+        <div>
+        <img src="./img/internet.jpg" alt="rede de internet"  width="100%">
+        <p>Segurança da informação</p>
+        <div>
+            <img src="./img/icones.png" alt="icones" width="100%">
+            <p>Workshops</p>
+        </div>
+    </div>
+</section>
+
+<section id="contato">
+    
+    <div>
+        <form action="index.html" method="POST">
+            <fieldset>
+                <legend>CONTATO</legend>
+                <div>
+                    <label for="nmClienteId">NOME</label>
+                    <input onblur="alert('ADEUS!')" type="text" name="nmCliente" id="nmClienteId" placeholder="Digite seu nome"/>
+                </div>
+                <div>
+                    <label for="telClienteId">TELEFONE</label>
+                    <input type="tel" name="telCliente" id="telClienteId" placeholder="Digite seu telefone"/>
+                </div>
+                <div>
+                    <label for="emailClienteId">E-MAIL</label>
+                    <input type="email" name="emailCliente" id="emailClienteId" placeholder="Digite seu e-mail"/>
+                </div>
+                <div>
+                    <label for="genClienteId">GÊNERO</label>
+                    <select name="genClienteId" id="genClientid">
+                        <option value="m">Masculino</option>
+                        <option value="f">Feminino</option>
+                        <option value="o">Outros</option>
+                    </select>
+                    <div>
+                    <fieldset>
+                    <legend>GÊNERO</legend>
+
+                    <label for="genClienteId1">Masculino</label>
+                    <input type="radio" name="genClientes" id="genClienteId1" value="m" checked/>
+                                        
+                    <label for="genClienteId2">Feminino</label>
+                    <input type="radio" name="genClientes" id="genClienteId2" value="f"/>
+                                        
+                    <label for="genClienteId3">Outros</label>
+                    <input type="radio" name="genClientes" id="genClienteId3" value="o"/>
+                    </fieldset>
+                </div>            
+                </div>
+                <div>
+                    <input type="submit" value="ENVIAR">
+                    <input type="reset" value="LIMPAR">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <div>
+        <h1>QUERYSTRING</h1>
+        <p><a href="index.html?tel=+5511123456789&email=email@email.com.br">Dados</a></p>
+    </div>
+ 
+</section>
+
+<footer>
+    <a href="#topo">Voltar ao topo</a>
+    <p>Desenvolvido por RM95246</p>
+    <p>Todos os direitos reservados. 2022&copy;</p>
+</footer>
+
+<script>
+    console.log('MSG gerada no BODY!')
+ </script>
+
+<script src="./js/script.js"></script>
+
+</body>
+</html>
+
+<!--   <h2>Contato</h2>
+    <p>Entre em contato</p>
+    <div>
+    <p><img src="./img/tel.png" alt="telefone" width="4%"> 
+    <a href="tel:+551112345678">(11)1234-5678</a></p>
+    </div>
+    <div>
+        <p><img src="./img/mail.png" alt="e-mail" width="4%"> 
+        <a href="mailto:rm95246@fiap.com.br">rm95246@fiap.com.br</a></p>
+        </div>-->
