@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cadastro</title>
+        <link rel="stylesheet" href="./css/style.css">
+
+    </head>
+    <body>
+    <header id="cadastro">
+            <form method="post" action="">
+            <h1>Faça seu cadastro</h1>
+            <p> 
+                <label for="nome_cad">Nome Completo</label>
+                <input id="nome_cad" name="nome_cad" required="required" type="text"/>
+              </p>
+               
+              <p> 
+                <label for="email_cad">E-mail</label>
+                <input id="email_cad" name="email_cad" required="required" type="email"/> 
+              </p>
+               
+              <p> 
+                <label for="senha_cad">Senha</label>
+                <input id="senha_cad" name="senha_cad" required="required" type="password"/>
+              </p>
+              <p>
+                <label for="documento_cad">Documento de Identificação<label>
+                <input id="documento_cad" name="documento_cad" required="required" type="text"/>
+              </p>
+              <p>
+                <label for="datnasc_cad">Data de Nascimento<label>
+                <input id="datnasc_cad" name="datnasc_cad" required="required" type="date"/>
+              </p>
+              <fieldset>
+              <legend>Gênero</legend>
+              <label for="gen_usuario">Feminino</label>
+              <input type="radio" name="gen_usuario" value="F"/>
+              <label for="gen_usuario">Masculino</label>
+              <input type="radio" name="gen_usuario" value="M" checked/>
+                                  
+              <label for="gen_usuario">Outros</label>
+              <input type="radio" name="gen_usuario" value="O"/>
+              </fieldset>
+              <p>
+                <label for="foto_cad">Foto<label>
+                <input id="foto_cad" name="foto_cad" required="required" type="file"/>
+              </p>
+            <form>
+            <a href="./paginicial.html"></a>    
+            <input type="submit" value="Cadastrar"/> 
+            </form>
+               
+              <p class="link">  
+                Já tem uma conta?
+                <a href="login.html"> Ir para Login </a>
+              </p>
+            </form>
+          </div>
+            <!-- <hr><p>Nessa primeira tela de cadastro a intenção é criar o perfil inicial do usuário na plataforma. Sendo assim, essa tela vai pedir dados como nome, idade, documentos, foto, sexo entre outras coisas. Validar se os dados estão corretos e assim terminar o cadastro do perfil do usúario na plataforma. Esses perfil vai ser necessário para que posteriormente o usuário crie seu currículo e possa se inscrever nas vagas.</p>
+            <p>Terminando o cadastro, o usuário é redirecionado a página inicial.</p>-->
+        </header>
+        <nav>
+            <class id="button">
+            <span><a href="index.html">Retornar à página inicial</a></span>
+            </class>
+            </nav>
+            <footer>
+            <div id="rodape">
+                <p>Desenvolvido pelo grupo Empregômetro.</p>
+                <p>Todos os direitos reservados. 2022&copy;</p>
+            </div>
+        </footer>
+    </body>
+</html>
