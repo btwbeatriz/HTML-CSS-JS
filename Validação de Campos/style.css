@@ -1,0 +1,20 @@
+.cadastro{
+    display: flex;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+
+.cadastro >fieldset{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-color: black;
+}
+
+.cadastro div{
+    margin: 0.5rem 0;
+}
+
+.cadastro legend{
+    margin: 0 auto;
+}
